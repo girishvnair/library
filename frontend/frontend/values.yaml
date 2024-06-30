@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: your-ecr-repo/react-frontend
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80

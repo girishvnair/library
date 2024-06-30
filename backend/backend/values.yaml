@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: your-ecr-repo/flask-backend
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 5000

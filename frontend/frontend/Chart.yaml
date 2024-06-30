@@ -1,0 +1,4 @@
+apiVersion: v2
+name: frontend
+description: Helm chart for ReactJS frontend application
+version: 0.1.0
